@@ -1,6 +1,5 @@
 h1 {
     font-family: 'Muli', sans-serif;
-    font-size: 50px;
     text-align: center;
 }
 nav {
@@ -42,12 +41,12 @@ li a {
   }
 .introTexto h1 {
     font-family: 'Muli', sans-serif;
-    font-size: 180px;
+    font-size: 115px;
     text-align: center;
     position: absolute;
     top: 25%;
-    left: 53%;
-    letter-spacing: 145px;
+    left: 54%;
+    letter-spacing: 125px;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -108,7 +107,7 @@ li a {
 }
 .discografia {
     background-image: url(https://revistaplaylist.com/wp-content/uploads/2017/09/youapb3nzl4-900x600.jpg);
-    height: 960px;
+    height: 1020px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,25 +116,21 @@ li a {
     text-align: center;
     color: aliceblue;
 }
-
-div#izq {
-    float: left;
-    width: 30%;
-    padding: 7px;
+#discos {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-div#centro {
-    float: LEFT;
-    width: 30%;
-    padding: 7px;
-}
-div#derecha {
-    float: LEFT;
-    width: 30%;
-    padding: 7px;
+#discos2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .fechas {
     background-image: url(http://media.digitalphotogallery.com/ilggjvabifkd/images/0b1c2700-f7e7-11e4-82dc-46bfd53c547e/arctic_monkeys01_website_image_utkd_standard.jpg?20161028000437);
-    background-color: #63636334;
     height: 960px;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,7 +139,6 @@ div#derecha {
     font-family: 'Muli', sans-serif;
     text-align: center;
     color: aliceblue;
-    opacity: 0,2;
 }
 table {
     border-collapse: collapse;
@@ -152,6 +146,7 @@ table {
     top: 50%;
     bottom: 50%;
     font-family: 'Muli', sans-serif;
+    
   }
   
   th, td {
