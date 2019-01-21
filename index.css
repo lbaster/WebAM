@@ -29,10 +29,12 @@ li a {
   .active {
     background-color: rgba(233, 170, 53, 0.856);
   }
-  .introFondo {
+.introFondo {
     background-image: url(https://img.descargarfondosdepantalla.net/uploads/2018/10/Arctic-monkeys-full-hd.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     height: 720px;
+    max-width: 100%;
+    display: block;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,34 +42,69 @@ li a {
   }
 .introTexto h1 {
     font-family: 'Muli', sans-serif;
-    font-size: 190px;
-    letter-spacing: 75px;
+    font-size: 180px;
     text-align: center;
     position: absolute;
-    top: 130px;
-    left: 52%;
+    top: 25%;
+    left: 53%;
+    letter-spacing: 145px;
     transform: translate(-50%, -50%);
-    color: aliceblue;
+    color: white;
 }
-.introTexto p {
+.introTexto h3 {
     font-family: 'Muli', sans-serif;
     font-size: 21px;
     top: 550px;
     text-align: center;
     position: relative;
-    color: aliceblue;
+    color: white;
 }
 .integrantes {
-    background-image: url(https://static.indiehoy.com/wp-content/uploads/2016/02/arctic-monkeys.jpg);
-    background-color: #63636334;
-    height: 720px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     position: relative;
     font-family: 'Muli', sans-serif;
     text-align: center;
     color: aliceblue;
+}
+.container {
+    position: relative;
+    width: auto;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .discografia {
     background-image: url(https://revistaplaylist.com/wp-content/uploads/2017/09/youapb3nzl4-900x600.jpg);
@@ -127,7 +164,7 @@ table {
 }
 .contacto {
     background-image: url(http://datainfox.com/wp-content/uploads/2015/08/Arctic-Monkeys-434-live.jpg);
-    height: auto;
+    height: 720px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
