@@ -131,7 +131,7 @@ li a {
 }
 .fechas {
     background-image: url(http://media.digitalphotogallery.com/ilggjvabifkd/images/0b1c2700-f7e7-11e4-82dc-46bfd53c547e/arctic_monkeys01_website_image_utkd_standard.jpg?20161028000437);
-    height: 960px;
+    height: 540px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,8 +143,8 @@ li a {
 table {
     border-collapse: collapse;
     width: 100%;
-    top: 50%;
-    bottom: 50%;
+    top: 120px;
+    bottom: 360px;
     font-family: 'Muli', sans-serif;
     
   }
