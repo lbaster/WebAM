@@ -139,7 +139,7 @@ li a {
     justify-content: center;
 }
 .fechas {
-    background-image: url(http://warp.la/wp-content/uploads/2018/05/arctic-monkeys-brit-awards-2014-1518005316-e1525279644506.jpg);
+    background-image: url(https://newmusicalestress.files.wordpress.com/2011/01/image-arctic-monkeys-sign.jpg);
     height: 540px;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,6 +155,7 @@ table {
     top: 120px;
     bottom: 360px;
     font-family: 'Muli', sans-serif;
+    background-color: #02020298;
     
   }
   
@@ -167,7 +168,7 @@ table {
   tr:hover {background-color:#02020246;
 }
 .contacto {
-    background-image: url(http://datainfox.com/wp-content/uploads/2015/08/Arctic-Monkeys-434-live.jpg);
+    background-image: url(https://therockrevival.com/wp-content/uploads/2013/11/untitled-1-33.jpg);
     height: 720px;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +177,7 @@ table {
     font-family: 'Muli', sans-serif;
     color: aliceblue;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 input[type=text], select {
