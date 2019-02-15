@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 h2 {
     font-family: 'Muli', sans-serif;
@@ -124,7 +125,7 @@ li a {
     font-family: 'Muli', sans-serif;
     text-align: center;
     color: aliceblue;
-    height: 100%;
+    height: 1080px;
 }
 #discos {
     display: flex;
@@ -168,6 +169,10 @@ table {
   tr:hover {background-color:#02020246;
 }
 .contacto {
+  display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
     background-image: url(https://therockrevival.com/wp-content/uploads/2013/11/untitled-1-33.jpg);
     height: 720px;
     background-position: center;
@@ -177,6 +182,7 @@ table {
     font-family: 'Muli', sans-serif;
     color: aliceblue;
     padding: 20px;
+    display: block;
     text-align: left;
 }
 
